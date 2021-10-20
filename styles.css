@@ -2,6 +2,7 @@
   height: 100vh;
   position: relative;
   background-color: red;
+  overflow: hidden;
 }
 
 .slider {
@@ -10,9 +11,13 @@
   position: absolute;
   left: 0;
   top: 0;
-  background: yellow;
-  display: flex;
-  /* transition: all 1s; */
+  /*background: yellow;
+  */display: flex;
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
 }
 
 .slide {
@@ -24,11 +29,11 @@
 }
 
 .slide:nth-child(1) {
-  background-image: url("./img/slide5.jpg");
+  background-image: url("./img/slide4-min.jpg");
 }
 
 .slide:nth-child(2) {
-  background-image: url("./img/slide4-min.jpg");
+  background-image: url("./img/slide5.jpg");
 }
 
 .slide:nth-child(3) {
